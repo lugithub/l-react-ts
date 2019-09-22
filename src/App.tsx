@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React, { FC, FocusEvent } from "react";
 import Header from "./Header";
 
 interface User {
@@ -9,10 +9,14 @@ interface User {
 const App: FC<User> = ({ id, name, children }, context) => {
   // return null;
 
+  function handleFocus(e: FocusEvent) {
+    console.log(`${e.timeStamp}`);
+  }
   return (
     <>
       <Header />
       <h1>{name}</h1>
+      <input onFocus={handleFocus} />
     </>
   );
 
