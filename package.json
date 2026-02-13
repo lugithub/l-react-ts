@@ -9,7 +9,7 @@
     "@types/react-dom": "16.9.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2",
+    "react-scripts": "5.0.1",
     "typescript": "3.6.3"
   },
   "scripts": {
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^4.1.0",
-    "cypress": "^3.4.1",
+    "cypress": "^15.10.0",
     "ts-loader": "^6.1.2"
   }
 }
